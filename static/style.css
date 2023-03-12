@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Shantell+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Raleway:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+    display: flex;
+    height: 30px;
+    filter: invert(1);
+    position: relative;
+    right: 250px;
+    top: -2px;
+}
+
+#navbar{
+    background-color: rgb(111, 233, 241);
+    padding: 17px 4px;
+    font-family: 'Shantell Sans';
+    background-color: #101010;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ul li{
+    list-style: none;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 3px 5px;
+    margin: 3px 57px;
+    color: white;
+}
+
+ul li a:hover{
+    /* background-color: black; */
+    color: grey
+}
+
+#introsection{
+    /* font-family: 'Shantell Sans'; */
+    font-family: 'Josefin Sans', sans-serif;
+    height: 300px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(static/images/bg.jpg) no-repeat center center / cover;
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(230 168 182 / 76%);
+    padding-bottom: 70px;
+}
+
+#introsection div{
+    margin: 4px;
+}
+
+#missionsection{
+    height: 350px;
+    background-color: #818080;
+    text-align: center;
+}
+
+#missionsection h2{
+    font-family: 'Raleway', sans-serif;
+    padding-top: 12px;
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: underline; 
+}
+
+.card{
+    display: inline-block;
+    width: 32%;
+    border: 2px solid black;
+    border-radius: 30px;
+    height: 70%;
+    margin: 25px 5px;
+}
+
+.subhead{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 160px;
+    padding: 10px 10px;
+    
+}
+
+.card-content{
+    font-family: 'Open Sans';
+    color: #ffdfe5;
+    margin: 10px 36px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+#sponsorsection h2{
+    font-weight: bold;
+    text-decoration: underline; 
+    font-family: 'Raleway', sans-serif;
+    padding-top: 31px;
+    height: 350px;
+    background-color: #e4a0ac;
+    text-align: center;
+    font-size: 36px;
+}
+
+.sponsors{
+    display: flex;
+    height: 140px;    
+    margin: 60px 36px;
+}
+
+.sponsors img{
+    padding: 6px 76px;
+}
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 27px;
+    background-color: black;
+}

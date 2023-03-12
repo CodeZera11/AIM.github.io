@@ -1,0 +1,20 @@
+//- base.pug
+doctype html
+html
+  head
+    title AIM Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/images/logo.png")
+            li #[a(href="/") Home]
+            li #[a(href="/") About Us]
+            li #[a(href="/") Services]
+            li #[a(href="/") ClassInfo]
+            li #[a(href="/") Contact Us]
+    block content
+    footer#footer
+        | Copyright© 2023 AIMDanceAcademy.com | All rights reserved

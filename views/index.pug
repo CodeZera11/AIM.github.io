@@ -1,0 +1,56 @@
+//- index.pug
+doctype html
+html
+  head
+    title AIM Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/images/logo.png")
+            li #[a(href="/") Home]
+            li #[a(href="/") About Us]
+            li #[a(href="/") Services]
+            li #[a(href="/") ClassInfo]
+            li #[a(href="/contact") Contact Us]
+
+    section#introsection
+        div WELCOME TO AIM DANCE ACADEMY
+        div Eat Sleep Dance Repeat
+    section#missionsection
+        h2 Our Mission
+        div.card
+            p.subhead Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/images/card1.png")
+                div.card-content
+                    p Perfect is the horizon that vanishes as you approach it. And yet, dancers continue to chase unrealistic ideals.
+        div.card
+            p.subhead Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/images/card2.png")
+                div.card-content
+                    p The movement of the body in a rhythmic way, usually to music and within a given space.
+        div.card
+            p.subhead Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/images/card3.png")
+                div.card-content
+                    p Ability to teach using various dance styles and methodologies from beginner to advanced level.
+    section#sponsorsection
+        h2 Our Sponsors
+          div.sponsors
+            img(src="/static/images/sponsor1.png")
+            img(src="/static/images/sponsor2.png")
+            img(src="/static/images/sponsor8.jpg")
+            img(src="/static/images/sponsor4.png")
+    footer#footer
+        | Copyright© 2023 AIMDanceAcademy.com | All rights reserved
+            
+    script
+      include ../static/index.js
